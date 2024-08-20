@@ -56,7 +56,7 @@ To use these dotfiles, follow these steps:
     stow -t $HOME .
     ```
 
-3. Alternatively, select only specific configuration packages to me symlinked. For example:
+3. Alternatively, select only specific configuration packages to be symlinked. For example:
 
     ```bash
     stow -t $HOME .zshrc
@@ -76,7 +76,7 @@ Windows: Partial support. Configuration files need to be manually copied.
 
 Arch Linux: The dotfiles were created on Arch Linux and are optimized for this distribution.
 
-Windows specific configurations: The configration (and or) settings files for Windows programs are included here merely for me to be able to access and share these with ese with through this repository. Following the install instructions will NOT put these files where they should be. They require manual copying over to their respective directories.
+Windows specific configurations: The configration (and or) settings files for Windows programs are included here merely for me to be able to access and share these with ease with through this repository. Following the install instructions will NOT put these files where they should be. They require manual copying over to their respective directories.
 
 ### Contributing
 
