@@ -39,7 +39,7 @@ To use these dotfiles, follow these steps:
 1. Clone this repository to your home directory or preferred location:
 
    ```bash
-   git ~https://github.com/zeptic99/dotfiles.git /.dotfiles
+   git https://github.com/zeptic99/dotfiles.git ~/.dotfiles
    ```
 
 ### Symlink configuration files
