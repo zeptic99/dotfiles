@@ -66,14 +66,14 @@ To use these dotfiles, follow these steps:
 
 ### Supported Platforms
 
-    Linux: Tested primarily on Arch Linux. The provided configurations should work on other Linux distributions with GNU Stow installed.
-    macOS: Configurations should work on macOS, but some adjustments may be needed based on your specific setup.
+Linux: Tested primarily on Arch Linux. The provided configurations should work on other Linux distributions with GNU Stow installed.
+macOS: Configurations should work on macOS, but some adjustments may be needed based on your specific setup.
 
  ### Notes
 
-    Arch Linux: The dotfiles were created with Arch Linux in mind and are optimized for this distribution.
-    Custom Adjustments: You may need to adjust some configuration files according to your personal preferences or system specifics.
-    Windows specific configurations: The configration (and or) settings files for Windows programs are included here merely for me to be able to access and share these with ese with through this repository. Following the install instructions will NOT put these files where they should be. They require manual copying over to their respective directories.
+Arch Linux: The dotfiles were created on Arch Linux and are optimized for this distribution.
+
+Windows specific configurations: The configration (and or) settings files for Windows programs are included here merely for me to be able to access and share these with ese with through this repository. Following the install instructions will NOT put these files where they should be. They require manual copying over to their respective directories.
 
 ### Contributing
 
