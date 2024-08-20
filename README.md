@@ -66,8 +66,11 @@ To use these dotfiles, follow these steps:
 
 ### Supported Platforms
 
-Linux: Tested primarily on Arch Linux. The provided configurations should work on other Linux distributions with GNU Stow installed.
+Linux: Tested primarily on Arch Linux. The provided configurations should work on other Linux distributions with GNU Stow installed. This includes Android, through the use of [**Termux**](https://github.com/termux/termux-app)
+
 macOS: Configurations should work on macOS, but some adjustments may be needed based on your specific setup.
+
+Windows: Partial support. Configuration files need to be manually copied.
 
  ### Notes
 
