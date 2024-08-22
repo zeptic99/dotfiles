@@ -80,6 +80,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls -a --color'
 alias vi='nvim'
 alias c='clear'
+alias ff='fastfetch'
 
 # Shell integrations
 eval "$(fzf --zsh)"
