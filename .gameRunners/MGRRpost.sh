@@ -1,0 +1,1 @@
+DISPLAY=:1 PROTON_FORCE_LARGE_ADDRESS_AWARE=1 wine /mnt/Samuel/Games/Metal.Gear.Rising.Revengeance.REPACK-KaOs/METAL\ GEAR\ RISING\ REVENGEANCE.exe
