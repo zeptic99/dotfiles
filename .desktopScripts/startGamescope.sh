@@ -1,1 +1,1 @@
-ENABLE_GAMESCOPE_WSI=1 gamescope --prefer-vk-device 8086:56a5 -W 1920 -H 1080 -h 1080 -w 1920 -f 
+MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 ENABLE_GAMESCOPE_WSI=1 WAYLAND_DISPLAY=wayland-1 gamescope -O DP-1 --prefer-vk-device 8086:56a5 -W 1920 -H 1080 -h 1080 -w 1920 -f -r 240 --force-grab-cursor --mangoapp
