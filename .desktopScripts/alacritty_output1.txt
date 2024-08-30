@@ -1,0 +1,913 @@
+Script started on 2024-08-28 01:13:26+06:00 [TERM="alacritty" TTY="/dev/pts/3" COLUMNS="187" LINES="43"]
+[0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[0m[49m[38;2;87;199;255m~/zeptittyconf/.dotfiles/.desktopScripts[0m[38;2;87;199;255m[49m[38;2;87;199;255m[0m[38;2;87;199;255m[49m[30m[0m[38;2;0;0;0m[49m[39m                                                                                                                                          [0m[49m[38;5;242m01:13:26[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[39m
+[0m[49m[38;2;255;106;193m❯[0m[38;2;255;106;193m[49m[38;2;255;106;193m[0m[38;2;255;106;193m[49m[30m[0m[38;2;0;0;0m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[J[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[38;2;87;199;255m~/zeptittyconf/.dotfiles/.desktopScripts[0m[38;2;87;199;255m[49m[38;2;87;199;255m[0m[38;2;87;199;255m[49m[30m[0m[38;2;0;0;0m[49m[39m                                                                                                                                          [0m[49m[38;5;242m01:13:26[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[39m
+[0m[49m[38;2;255;106;193m❯[0m[38;2;255;106;193m[49m[38;2;255;106;193m[0m[38;2;255;106;193m[49m[30m[0m[38;2;0;0;0m[49m[39m [0m[49m[39m[K[?25h[?2004h[?25l[A[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[38;2;87;199;255m~/zeptittyconf/.dotfiles/.desktopScripts[0m[38;2;87;199;255m[49m[38;2;87;199;255m[0m[38;2;87;199;255m[49m [0m[38;2;87;199;255m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242mnouveau-neovim-config[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[30m[0m[38;2;0;0;0m[49m[39m                                                                                                                    [0m[49m[38;5;242m01:13:26[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[39m
+[0m[49m[38;2;255;106;193m❯[0m[38;2;255;106;193m[49m[38;2;255;106;193m[0m[38;2;255;106;193m[49m[30m[0m[38;2;0;0;0m[49m[39m [0m[49m[39m[K[?25h[?25l[A[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[38;2;87;199;255m~/zeptittyconf/.dotfiles/.desktopScripts[0m[38;2;87;199;255m[49m[38;2;87;199;255m[0m[38;2;87;199;255m[49m [0m[38;2;87;199;255m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242mnouveau-neovim-config[0m[38;2;0;0;242m[49m[38;5;242m*[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[30m[0m[38;2;0;0;0m[49m[39m                                                                                                                   [0m[49m[38;5;242m01:13:26[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[38;5;242m[0m[38;5;242m[49m[39m
+[0m[49m[38;2;255;106;193m❯[0m[38;2;255;106;193m[49m[38;2;255;106;193m[0m[38;2;255;106;193m[49m[30m[0m[38;2;0;0;0m[49m[39m [0m[49m[39m[K[?25h[1m[31ms[0m[39m[1m[31ms[0m[39m[90mcript -a alacritty_output.txt[39m
+[K[A[3C[1m[31ms[1m[31me[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[4C[1m[31ms[0m[39m[0m[39m [1m[31ms[0m[39m[90mcript -a alacritty_output.txt[1B[39m[K[A[3C[0m[32ms[32mh[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[4C[90m startGamescope.sh | tee ./wayland_display_1_gamescope_logs.txt[39m[63D[39m [35ms[35mt[35ma[35mr[35mt[35mG[35ma[35mm[35me[35ms[35mc[35mo[35mp[35me[35m.[35ms[35mh[39m[39m [39m|[39m [32mt[32me[32me[39m[39m [35m.[35m/[35mw[35ma[35my[35ml[35ma[35mn[35md[35m_[35md[35mi[35ms[35mp[35ml[35ma[35my[35m_[35m1[35m_[35mg[35ma[35mm[35me[35ms[35mc[35mo[35mp[35me[35m_[35ml[35mo[35mg[35ms[35m.[35mt[35mx[35mt[39m[38D[39m.[39m/[39mw[39ma[39my[39ml[39ma[39mn[39md[39m_[39md[39mi[39ms[39mp[39ml[39ma[39my[39m_[39m1[39m_[39mg[39ma[39mm[39me[39ms[39mc[39mo[39mp[39me[39m_[39ml[39mo[39mg[39ms[39m.[39mt[39mx[39m [90mt[39m [39m [90mxt[39m [39m [39m [90mtxt[39m [39m [39m [39m [90m.txt[39m [39m [39m [39m [39m [90ms.txt[39m [39m [39m [39m [39m [39m [90mgs.txt[39m [39m [39m [39m [39m [39m [39m [90mogs.txt[39m [39m [39m [39m [39m [39m [39m [39m [8D[90mlogs.txt[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m_logs.txt[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90me_logs.txt[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mpe_logs.txt[39m[11D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mope_logs.txt[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90mcope_logs.txt[39m[13D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mscope_logs.txt[39m[14D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[90mescope_logs.txt[39m[15D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mmescope_logs.txt[39m[16D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[90mamescope_logs.txt[39m[17D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mgamescope_logs.txt[39m[18D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90m_gamescope_logs.txt[39m[19D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[90m1_gamescope_logs.txt[39m[20D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[90m_1_gamescope_logs.txt[39m[21D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[90my_1_gamescope_logs.txt[39m[22D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [23D[90may_1_gamescope_logs.txt[39m[23D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[90mlay_1_gamescope_logs.txt[39m[24D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[90mplay_1_gamescope_logs.txt[39m[25D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26D[90msplay_1_gamescope_logs.txt[39m[26D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[90misplay_1_gamescope_logs.txt[39m[27D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[90mdisplay_1_gamescope_logs.txt[39m[28D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [29D[90m_display_1_gamescope_logs.txt[39m[29D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [30D[90md_display_1_gamescope_logs.txt[39m[30D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[90mnd_display_1_gamescope_logs.txt[39m[31D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[90mand_display_1_gamescope_logs.txt[39m[32D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33D[90mland_display_1_gamescope_logs.txt[39m[33D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [34D[90myland_display_1_gamescope_logs.txt[39m[34D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [35D[90mayland_display_1_gamescope_logs.txt[39m[35D[4m[35m.[4m[35m/[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[90mwayland_display_1_gamescope_logs.txt[39m[36D[4m[35m.[24m[39m[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [37D[90m/wayland_display_1_gamescope_logs.txt[39m[37D[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [38D[90m./wayland_display_1_gamescope_logs.txt[39m[38D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39D[90m ./wayland_display_1_gamescope_logs.txt[39m[39D[1m[31mt[1m[31me[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D[90me ./wayland_display_1_gamescope_logs.txt[39m[40D[1m[31mt[0m[39m[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [41D[90mee ./wayland_display_1_gamescope_logs.txt[39m[41D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [42D[90mtee ./wayland_display_1_gamescope_logs.txt[39m[42D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [43D[90m tee ./wayland_display_1_gamescope_logs.txt[39m[43D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [44D[90m| tee ./wayland_display_1_gamescope_logs.txt[39m[44D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [45D[90m | tee ./wayland_display_1_gamescope_logs.txt[39m[45D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [45D[?2004l[1B[gamescope] [[0;34mInfo[0m]  [0;37mconsole:[0m gamescope version 3.14.29
+ATTENTION: default value of option vk_khr_present_wait overridden by environment.
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m selecting physical device 'Intel(R) Arc(tm) A380 Graphics (DG2)': queue family 0 (general queue family 0)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m physical device supports DRM format modifiers
+[Gamescope WSI] Forcing on VK_EXT_swapchain_maintenance1.
+[gamescope] [[0;34mInfo[0m]  [0;37mwlserver:[0m [backend/headless/backend.c:67] Creating headless backend
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Seat name: Hyprland
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m supported DRM formats for sampling usage:
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AR24 (0x34325241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   XR24 (0x34325258)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AB24 (0x34324241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   XB24 (0x34324258)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   RG16 (0x36314752)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AB4H (0x48344241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   XB4H (0x48344258)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AB48 (0x38344241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   XB48 (0x38344258)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AB30 (0x30334241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   AR30 (0x30335241)
+[gamescope] [[0;34mInfo[0m]  [0;37mvulkan:[0m   XR30 (0x30335258)
+[gamescope] [[0;34mInfo[0m]  [0;37mwlserver:[0m Running compositor on wayland display 'gamescope-0'
+[gamescope] [[0;34mInfo[0m]  [0;37mwlserver:[0m [backend/headless/backend.c:17] Starting headless backend
+[gamescope] [[0;34mInfo[0m]  [0;37mwlserver:[0m Successfully initialized libei for input emulation!
+[gamescope] [[0;34mInfo[0m]  [0;37mwlserver:[0m [xwayland/server.c:107] Starting Xwayland on :1
+ATTENTION: default value of option vblank_mode overridden by environment.
+[gamescope] [[0;34mInfo[0m]  [0;37mpipewire:[0m stream state changed: connecting
+[gamescope] [[0;34mInfo[0m]  [0;37mpipewire:[0m stream state changed: paused
+[gamescope] [[0;34mInfo[0m]  [0;37mpipewire:[0m stream available on node ID: 92
+[gamescope] [[0;34mInfo[0m]  [0;37mxwm:[0m Embedded, no cursor set. Using left_ptr by default.
+[gamescope] [[0;34mInfo[0m]  [0;37mvblank:[0m Using timerfd.
+[gamescope] [[0;34mInfo[0m]  [0;37medid:[0m Patching res 800x1280 -> 1920x1080
+ATTENTION: default value of option vblank_mode overridden by environment.
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;33mWarn[0m]  [0;37mxwm:[0m got the same buffer committed twice, ignoring.
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 60.000hz
+[gamescope] [[0;34mInfo[0m]  [0;37mxdg_backend:[0m Changed refresh to: 239.761hz
+[gamescopereaper] [[0;34mInfo[0m]  [0;37mreaper:[0m Parent of gamescopereaper was killed. Killing children.
+(EE) failed to read Wayland events: Connection reset by peer
+[1m[7m%[27m[1m[0m                                                                                           [0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[38;2;87;199;255m~/zeptittyconf/.dotfiles/.desktopScripts[0m[38;2;87;199;255m[49m[38;2;87;199;255m[0m[38;2;87;199;255m[49m [0m[38;2;87;199;255m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242mnouveau-neovim-config[0m[38;2;0;0;242m[49m[38;5;242m*[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[30m[0m[38;2;0;0;0m[49m[39m                                                                                                               [0m[49m[38;2;243;249;157m41s[0m[38;2;243;249;157m[49m[38;2;243;249;157m[0m[38;2;243;249;157m[49m[38;2;243;249;157m[0m[38;2;243;249;157m[49m[38;5;242m 01:14:14[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[38;5;242m[0m[38;2;0;0;242m[49m[39m
+[0m[49m[38;2;255;106;193m❯[0m[38;2;255;106;193m[49m[38;2;255;106;193m[0m[38;2;255;106;193m[49m[30m[0m[38;2;0;0;0m[49m[39m [0m[49m[39m[K[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[1m[31me[1m[31mx[0m[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?2004l
+
+Script done on 2024-08-28 01:14:20+06:00 [COMMAND_EXIT_CODE="0"]
