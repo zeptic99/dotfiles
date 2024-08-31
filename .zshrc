@@ -124,5 +124,13 @@ function yy() {
 	rm -f -- "$tmp"
 }
 
+# Repeat last command if nothing typed
+last_if_empty() {
+  [ -z "$BUFFER" ] && zle up-history
+  zle accept-line
+}
+zle -N last_if_empty
+bindkey -M viins '^M' last_if_empty
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
