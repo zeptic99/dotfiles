@@ -76,6 +76,7 @@ zinit snippet OMZP::command-not-found
 
 # Load completions
 autoload -Uz compinit && compinit
+compinit
 
 zinit cdreplay -q
 
@@ -109,6 +110,7 @@ alias vi='nvim'
 alias c='clear'
 alias ff='fastfetch'
 alias yay='yay --noconfirm'
+alias nuke='sudo pacman -Syu --noconfirm'
 
 # Shell integrations
 eval "$(fzf --zsh)"
