@@ -1,4 +1,0 @@
-# Yazi Configuration
-associations:
-  - pattern: "*.pdf"
-    command: "zathura {path}"
