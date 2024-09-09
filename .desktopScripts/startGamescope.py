@@ -3,6 +3,11 @@ import os
 
 command = "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 ENABLE_GAMESCOPE_WSI=1 gamescope --prefer-vk-device 8086:56a5 -force-grab-cursor --mangoapp"
 
+screenRes = ""
+gameRes = ""
+filter = ""
+scaling = ""
+
 root = tk.Tk()
 root.geometry("400x400")
 
@@ -20,17 +25,64 @@ def sc_1920():
 
 def sc_1440():
     global screenRes
-    screenRes = " -w 1920 -h 1080"
+    screenRes = " -w 1440 -h 1080"
 
 
 def sc_1080():
     global screenRes
-    screenRes = " -w 1920 -h 1080"
+    screenRes = " -w 1080 -h 1080"
 
 
 def sc_4k():
     global screenRes
-    screenRes = " -w 1920 -h 1080"
+    screenRes = " -w 3840 -h 2160"
+
+##############
+# APPLIC res #
+##############
+
+
+def ac_1920():
+    global gameRes
+    gameRes = " -W 1920 -H 1080"
+
+
+def ac_1440():
+    global gameRes
+    gameRes = " -W 1440 -H 1080"
+
+
+def ac_1080():
+    global gameRes
+    gameRes = " -W 1080 -H 1080"
+
+
+def ac_4k():
+    global gameRes
+    gameRes = " -W 3840 -H 2160"
+
+##############
+# SCALING    #
+##############
+
+
+def stretch():
+    global scaling
+    scaling = " -S stretch"
+
+
+def integer():
+    global scaling
+    scaling = " -S integer"
+
+##############
+# FILTER     #
+##############
+
+
+def fsr():
+    global filter
+    filter = " -F fsr"
 
 # Create the buttons
 
@@ -46,12 +98,13 @@ button2.pack()
 button3.pack()
 button4.pack()
 
+
 command += screenRes
 command += gameRes
+command += filter
 command += scaling
-command += monitor
 
 
 root.mainloop()
 
-os.system(command)
+# os.system(command)
