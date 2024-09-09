@@ -118,6 +118,7 @@ alias c='clear'
 alias ff='fastfetch'
 alias yay='yay --noconfirm'
 alias nuke='sudo pacman -Syu --noconfirm'
+alias fuck='echo Its okay child'
 
 # Shell integrations
 eval "$(fzf --zsh)"
