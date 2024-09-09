@@ -20,22 +20,22 @@ root.geometry("400x400")
 
 def sc_1920():
     global screenRes
-    screenRes = " -w 1920 -h 1080"
+    screenRes = " -W 1920 -H 1080"
 
 
 def sc_1440():
     global screenRes
-    screenRes = " -w 1440 -h 1080"
+    screenRes = " -W 1440 -H 1080"
 
 
 def sc_1080():
     global screenRes
-    screenRes = " -w 1080 -h 1080"
+    screenRes = " -W 1080 -H 1080"
 
 
 def sc_4k():
     global screenRes
-    screenRes = " -w 3840 -h 2160"
+    screenRes = " -W 3840 -H 2160"
 
 ##############
 # APPLIC res #
@@ -44,22 +44,22 @@ def sc_4k():
 
 def ac_1920():
     global gameRes
-    gameRes = " -W 1920 -H 1080"
+    gameRes = " -w 1920 -h 1080"
 
 
 def ac_1440():
     global gameRes
-    gameRes = " -W 1440 -H 1080"
+    gameRes = " -w 1440 -h 1080"
 
 
 def ac_1080():
     global gameRes
-    gameRes = " -W 1080 -H 1080"
+    gameRes = " -w 1080 -h 1080"
 
 
 def ac_4k():
     global gameRes
-    gameRes = " -W 3840 -H 2160"
+    gameRes = " -w 3840 -h 2160"
 
 ##############
 # SCALING    #
