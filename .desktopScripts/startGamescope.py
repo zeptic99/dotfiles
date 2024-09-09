@@ -1,7 +1,10 @@
 import tkinter as tk
 import os
 
-command = "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 ENABLE_GAMESCOPE_WSI=1 gamescope --prefer-vk-device 8086:56a5 -force-grab-cursor --mangoapp"
+# command = "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 ENABLE_GAMESCOPE_WSI=1 gamescope --prefer-vk-device 8086:56a5 -force-grab-cursor --mangoapp"
+
+global command
+command = "echo gamescope"
 
 screenRes = ""
 gameRes = ""
@@ -84,6 +87,13 @@ def fsr():
     global filter
     filter = " -F fsr"
 
+
+def stg():
+    global command
+    argument = command + screenRes + gameRes + filter + scaling
+    os.system(argument)
+
+
 # Create the buttons
 
 
@@ -92,19 +102,14 @@ button2 = tk.Button(root, text="1440", command=sc_1440)
 button3 = tk.Button(root, text="1080", command=sc_1080)
 button4 = tk.Button(root, text="4k", command=sc_4k)
 
+button5 = tk.Button(root, text="Start Gamescope", command=stg)
+
 # Pack the buttons
 button1.pack()
 button2.pack()
 button3.pack()
 button4.pack()
-
-
-command += screenRes
-command += gameRes
-command += filter
-command += scaling
-
+button5.pack()
 
 root.mainloop()
 
-# os.system(command)
