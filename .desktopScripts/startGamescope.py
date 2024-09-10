@@ -99,21 +99,51 @@ def stg():
 
 
 # Create the buttons
+scf = tk.Frame(root)
+screen_res_label = tk.Label(root, text="Screen RES")
 
+acf = tk.Frame(root)
+application_res_label = tk.Label(root, text="Application RES")
 
-button1 = tk.Button(root, text="1920", command=sc_1920)
-button2 = tk.Button(root, text="1440", command=sc_1440)
-button3 = tk.Button(root, text="1080", command=sc_1080)
-button4 = tk.Button(root, text="4k", command=sc_4k)
+scalef = tk.Frame(root)
+scale_label = tk.Label(root, text="Scaling")
 
-button5 = tk.Button(root, text="Start Gamescope", command=stg)
+filterf = tk.Frame(root)
+filter_label = tk.Label(root, text="Filter / Upscaling")
+
+sc1 = tk.Button(scf, text="1920", command=sc_1920)
+sc2 = tk.Button(scf, text="1440", command=sc_1440)
+sc3 = tk.Button(scf, text="1080", command=sc_1080)
+sc4 = tk.Button(scf, text="4k", command=sc_4k)
+
+ac1 = tk.Button(root, text="1920", command=ac_1920)
+ac2 = tk.Button(root, text="1440", command=ac_1440)
+ac3 = tk.Button(root, text="1080", command=ac_1080)
+ac4 = tk.Button(root, text="4k", command=ac_4k)
+
+stretchb = tk.Button(root, text="Stretch", command=stretch)
+intb = tk.Button(root, text="Integer", command=integer)
+
+fsrb = tk.Button(root, text="FSR", command=fsr)
+nfsrb = tk.Button(root, text="No FSR", command=noBloodyFsr)
+
+stgb = tk.Button(root, text="Start Gamescope", command=stg)
 
 # Pack the buttons
-button1.pack()
-button2.pack()
-button3.pack()
-button4.pack()
-button5.pack()
+sc1.pack(side=tk.LEFT)
+sc2.pack(side=tk.LEFT)
+sc3.pack(side=tk.LEFT)
+sc4.pack(side=tk.LEFT)
+
+# Pack the label and the frame
+screen_res_label.pack()  # Packs the label above the buttons
+scf.pack()  # Packs the frame below the label
+
+ac1.pack(side=tk.LEFT)
+ac2.pack(side=tk.LEFT)
+ac3.pack(side=tk.LEFT)
+ac4.pack(side=tk.LEFT)
+
+stgb.pack(side=tk.LEFT, anchor=tk.S)
 
 root.mainloop()
-
