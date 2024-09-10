@@ -1,7 +1,10 @@
 import tkinter as tk
 import os
 
-command = "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 gamescope -force-grab-cursor --mangoapp -f"
+command = (
+    "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf "
+    "vblank_mode=0 gamescope -force-grab-cursor --mangoapp -f"
+)
 
 screenRes = ""
 gameRes = ""
@@ -121,7 +124,8 @@ def stg():
 def pgs():
     global command
     argument = command + gpu + screenRes + gameRes + filter + scaling + refresh
-    file_path = os.path.expandvars("$HOME/zeptittyconf/.dotfiles/.desktopScripts/startGamescope.sh")
+    file_path = os.path.expandvars(
+        "$HOME/zeptittyconf/.dotfiles/.desktopScripts/startGamescope.sh")
     with open(file_path, 'w') as file:
         file.write(argument)
 
