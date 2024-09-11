@@ -3,7 +3,7 @@ import os
 
 command = (
     "MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf "
-    "vblank_mode=0 gamescope -force-grab-cursor --mangoapp -f"
+    "vblank_mode=0 gamescope --force-grab-cursor --mangoapp -f"
 )
 
 screenRes = ""
@@ -79,12 +79,12 @@ def r_240():
 
 def nvidia():
     global gpu
-    gpu = " -prefer-vk-device 10de:2206"
+    gpu = " --prefer-vk-device 10de:2206"
 
 
 def intel():
     global gpu
-    gpu = " -prefer-vk-device 8086:56a5"
+    gpu = " --prefer-vk-device 8086:56a5"
 
 ##############
 # SCALING    #
