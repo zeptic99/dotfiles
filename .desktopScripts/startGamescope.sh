@@ -1,1 +1,1 @@
-MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 gamescope --force-grab-cursor --mangoapp -f --prefer-vk-device 8086:56a5 -W 3840 -H 2160 -w 3840 -h 2160 -S integer -r 60
+MANGOHUD_CONFIGFILE=$HOME/.config/MangoHud/MangoHud.conf vblank_mode=0 gamescope --force-grab-cursor --mangoapp -f --prefer-vk-device 8086:56a5 -W 1080 -H 1080 -S stretch -r 240
