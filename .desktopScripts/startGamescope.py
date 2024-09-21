@@ -119,6 +119,7 @@ def stg():
     global command
     argument = command + gpu + screenRes + gameRes + filter + scaling + refresh
     print(argument)
+    os.system(argument)
 
 
 def pgs():
