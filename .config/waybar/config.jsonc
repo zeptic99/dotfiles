@@ -1,7 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right
-    "modules-right": [ "custom/nvtempd", "cpu", "temperature", "bluetooth", "pulseaudio", "tray"],
+    "modules-right": [ "custom/nvtempd", "memory", "cpu", "temperature", "bluetooth", "pulseaudio", "tray"],
     "modules-left": [
         "hyprland/workspaces", "hyprland/window",
     ],
@@ -81,6 +81,9 @@
         "exec": "/home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/nvtempd",
         "format": "{}",
         "interval": 2,                     // every hour
+    },
+    "memory": {
+        "format": "󰍛  {used} <span color=\"darkgray\">| {total} GB</span>"
     },
     "hyprland/workspaces": {
       "on-click": "activate",

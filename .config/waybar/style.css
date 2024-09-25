@@ -89,6 +89,7 @@
 
 #clock,
 #custom-nvtempd,
+#memory,
 #temperature,
 #pulseaudio,
 #cpu,
@@ -202,7 +203,8 @@
 }
 
 #memory {
-    background: @memory;
+    background: @nord_bg;
+    padding: 0 0.6em;
 }
 
 #cpu {
