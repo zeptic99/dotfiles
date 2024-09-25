@@ -88,6 +88,7 @@
 }
 
 #clock,
+#custom-nvtempd,
 #temperature,
 #pulseaudio,
 #cpu,
@@ -106,7 +107,7 @@
 #waybar {
     background: @bg; 
     color: @light;
-    font-family: "Cantarell", "Font Awesome 5 Pro";
+    font-family: "Cantarell", "Font Awesome 5 Free";
     font-size: 12px;
     font-weight: bold;
 }
@@ -121,6 +122,7 @@
 #network,
 #pulseaudio,
 #temperature,
+#custom-nvtempd,
 #custom-alsa,
 #custom-pacman,
 #custom-weather,
@@ -191,7 +193,10 @@
     font-weight: bold;
     padding: 0 0.6em;
 }
-
+#custom-nvtempd {
+    background: @nord_bg;
+    padding: 0 0.6em;
+}
 #custom-alsa {
     background: @sound;
 }
