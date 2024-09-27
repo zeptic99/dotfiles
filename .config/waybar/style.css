@@ -89,11 +89,12 @@
 
 #clock,
 #custom-nvtempd,
+#custom-inteltempd,
 #memory,
 #temperature,
 #pulseaudio,
 #cpu,
-#bluetooth {
+#custom-power {
     border: none;
     border-radius: 3px;
     min-height: 0;
@@ -188,14 +189,22 @@
     font-weight: bold;
     background-color: @nord_bg_blue;
 }
-#bluetooth {
-    background: @nord_bg;
+#custom-power {
+    color: @nord_light_font; 
+    background: #bf616a;
     font-size: 1.2em;
     font-weight: bold;
-    padding: 0 0.6em;
+    padding-left: 4px;
+    padding-right: 8px;
 }
 #custom-nvtempd {
-    background: @nord_bg;
+    background: #a3be8c;
+    color: #2e3440;
+    padding: 0 0.6em;
+}
+#custom-inteltempd {
+    background: #88c0d0;
+    color: #2e3440;
     padding: 0 0.6em;
 }
 #custom-alsa {
@@ -203,7 +212,7 @@
 }
 
 #memory {
-    background: @nord_bg;
+    background: #4c566a;
     padding: 0 0.6em;
 }
 
@@ -216,7 +225,7 @@
 }
 
 #temperature {
-    background-color: @nord_bg;
+    background-color: #3b4252;
     color: #D8DEE9;
 }
 #temperature.critical {
@@ -247,7 +256,6 @@
 }
 
 #pulseaudio { /* Unsused but kept for those who needs it */
-    background: @nord_bg;
     color: #D8DEE9;
 }
 

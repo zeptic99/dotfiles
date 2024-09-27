@@ -1,6 +1,6 @@
 #!/bin/bash
 DRM=/sys/class/drm/card0
-HWMON=/sys/class/hwmon/hwmon6
+HWMON=/sys/class/hwmon/hwmon5
 while :
 do
 	POWER1=$(cat $HWMON/energy1_input)

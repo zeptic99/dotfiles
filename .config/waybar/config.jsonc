@@ -1,7 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right
-    "modules-right": [ "custom/nvtempd", "memory", "cpu", "temperature", "bluetooth", "pulseaudio", "tray"],
+    "modules-right": [ "custom/nvtempd", "custom/inteltempd", "memory", "cpu", "temperature", "pulseaudio", "custom/power", "tray"],
     "modules-left": [
         "hyprland/workspaces", "hyprland/window",
     ],
@@ -11,10 +11,10 @@
         "format": "{icon}",
         // "format-alt": "{status}",
         "format-icons": {
-            "enabled": "",
+            "enabled": "⏻",
             "disabled": ""
         },
-        "on-click": "hyprctl dispatch exec [workspace 13] alacritty"
+        "on-click": "sudo poweroff"
     },    
     "tray": {
         //"icon-size": 11,
@@ -81,6 +81,15 @@
         "exec": "/home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/nvtempd",
         "format": "{}",
         "interval": 2,                     // every hour
+    },
+    "custom/inteltempd": {
+        "exec": "/home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/inteltempd",
+        "format": "{}",
+        "interval": 3,                     // every hour
+    },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "sudo poweroff"
     },
     "memory": {
         "format": "󰍛  {used} <span color=\"darkgray\">| {total} GB</span>"

@@ -22,10 +22,10 @@ int main() {
 
     // Output in the desired format
   if (temp == 0) {
-    printf("Offline");
+    printf("offline");
   }
   else {
-    printf("GPU0: %u%% \uf2c9 %u°C  \ue62e  %.2fW\n", gpuUtilization.gpu, temp, power / 1000.0);
+    printf("  %u%%  \uf2c9  %u°C  \ue315  %uW\n", gpuUtilization.gpu, temp, power / 1000);
   }
     // Shutdown NVML
     nvmlShutdown();
