@@ -119,6 +119,7 @@ alias ff='fastfetch'
 alias yay='yay --noconfirm'
 alias nuke='sudo pacman -Syu --noconfirm'
 alias fuck='echo Its okay child'
+alias vm='sudo sh /home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/autoStartWinVM.sh:'
 
 # Shell integrations
 eval "$(fzf --zsh)"
