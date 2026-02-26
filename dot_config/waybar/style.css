@@ -1,0 +1,163 @@
+
+/* ===========================
+   Everblush Waybar Theme
+   =========================== */
+
+/* Everblush Palette */
+@define-color bg #141B1E;
+@define-color lighter-bg #232a2d;
+@define-color fg #dadada;
+@define-color red #E57474;
+@define-color yellow #E5C76B;
+@define-color green #8CCF7E;
+@define-color blue #67B0E8;
+@define-color magenta #C47FD5;
+@define-color cyan #6CBFBF;
+@define-color orange #E19A66;
+@define-color gray #232A2D;
+@define-color light-gray #b3b9b8;
+
+/* Keyframes */
+@keyframes blink-warning {
+  70% { color: @fg; }
+  to   { color: @bg; background-color: @yellow; }
+}
+@keyframes blink-critical {
+  70% { color: @fg; }
+  to   { color: @bg; background-color: @red; }
+}
+
+/* Reset */
+* {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  min-height: 0;
+  font-family: "Cantarell", "Font Awesome 5 Free";
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Waybar Base */
+#waybar {
+  background: transparent;
+  color: @fg;
+}
+
+/* Workspaces */
+#workspaces {
+  background: transparent;
+  padding-right: 0px;
+}
+#workspaces button {
+  all: initial;
+  min-width: 0;
+  padding: 0 10px;
+  padding-right: 13px;
+  margin: 0;
+  background: @lighter-bg;   /* lighter than gray */
+  color: @fg;
+}
+#workspaces button.active,
+#workspaces button:hover {
+  background: @bg; /* matches old clock color */
+  color: @fg;
+}
+#workspaces button.urgent {
+  background: @red;
+  color: @bg;
+}
+
+/* Modules (size preserved) */
+#battery,
+#clock,
+#cpu,
+#custom-layout,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#custom-nvtempd,
+#custom-alsa,
+#custom-pacman,
+#custom-weather,
+#custom-gpu,
+#tray,
+#backlight,
+#language,
+#custom-cpugovernor,
+#custom-power {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+/* Module Specific Colors */
+#custom-power       { background: @red;     color: @fg; font-size: 1.2em; font-weight: bold; }
+#custom-nvtempd     { background: @green;   color: @bg; }
+#custom-inteltempd  { background: @cyan;    color: @bg; }
+#custom-alsa        { background: @yellow;  color: @bg; }
+#memory             { background: @lighter-bg;    color: @fg; }
+#cpu                { background: @gray;    color: @fg; }
+#temperature        { background: @gray;    color: @fg; }
+#custom-layout      { background: @magenta; color: @bg; }
+#battery            { background: @cyan;    color: @bg; }
+#backlight          { background: @gray;    color: @fg; }
+
+/* Clock now blue */
+#clock              { background: @magenta;    color: @bg; }
+#clock.date         { background: @magenta;    color: @bg; }
+#clock.time         { background: @magenta;    color: @bg; }
+
+/* Pulseaudio */
+#pulseaudio.muted        { background: @red;    color: @bg; }
+#pulseaudio.source-muted { background: @orange; color: @bg; }
+
+/* CPU Governor (orange background, white text) */
+#custom-cpugovernor {
+  background: @orange;
+  color: @fg;
+}
+
+/* Alerts */
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical { color: @red; }
+
+#mode,
+#memory.critical,
+#temperature.critical,
+#battery.critical.discharging {
+  animation: blink-critical 2s infinite alternate linear;
+}
+
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning {
+  background: @yellow;
+  color: @bg;
+}
+
+#battery.warning.discharging {
+  animation: blink-warning 3s infinite alternate linear;
+}
+
+/* Window Title (orange like old clock) */
+#window {
+  margin-right: 6px;
+  margin-left: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  background: @magenta;
+  color: @bg;
+}
+

@@ -1,0 +1,11 @@
+[Unit]
+Description=Run script after SDDM starts
+After=sddm.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/zeptic/zeptittyconf/vfio-zeptic-dynamic/revivenvidia-hyprland.sh
+RemainAfterExit=false
+
+[Install]
+WantedBy=multi-user.target

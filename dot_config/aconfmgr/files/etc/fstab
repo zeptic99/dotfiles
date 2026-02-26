@@ -1,0 +1,15 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2
+UUID=8b93aa0a-7243-4630-a8c1-29d1c3cff067	/         	ext4      	rw,relatime,stripe=32	0 1
+
+# /dev/nvme0n1p1
+UUID=4B5B-958F      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+UUID=2EBAA32FBAA2F28F /mnt/better ntfs uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+
+#UUID=9E8CBF4D8CBF1F29 /mnt/Samuel ntfs uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+
+#192.168.50.2:/mnt/Zeptitwo/ZEPTD2  /mnt/TRUENAS/main  nfs  rw,noatime,nfsvers=4.2,_netdev,x-systemd.automount,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2  0  0

@@ -1,0 +1,131 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right
+    "modules-right": [ "memory", "cpu", "temperature", "pulseaudio", "custom/power", "tray"],
+    "modules-left": [
+        "hyprland/workspaces", "hyprland/window",
+    ],
+    "modules-center": ["clock"],
+    "bluetooth": {
+        "interval": 30,
+        "format": "{icon}",
+        // "format-alt": "{status}",
+        "format-icons": {
+            "enabled": "⏻",
+            "disabled": ""
+        },
+        "on-click": "sudo poweroff"
+    },    
+    "tray": {
+        //"icon-size": 11,
+        "spacing": 5
+    },
+    "clock": {
+        "format": "  {:%H:%M   %a %e %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "today-format": "<b>{}</b>",
+        "on-click": "gnome-calendar"
+    },
+    "cpu": {
+        "interval": 2,      
+        "format": "{max_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
+        "max-length": 13,
+        "min-length": 13,
+        "on-click": "alacritty --hold -e htop --sort-key PERCENT_CPU",
+        "tooltip": false
+    },
+    "temperature": {
+        //"thermal-zone": 1,
+        "interval": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+        "critical-threshold": 74,
+        "format-critical": "  {temperatureC}°C",
+        "format": "{icon}  {temperatureC}°C",
+        "format-icons": ["", "", ""],
+        "max-length": 7,
+        "min-length": 7
+    },
+    "pulseaudio": {
+        "scroll-step": 3, // %, can be a float
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        //"format-source": "{volume}% ",
+        //"format-source-muted": "",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "custom/pacman": {
+        "format": "<big>􏆲</big>  {}",
+        "interval": 3600,                     // every hour
+        "exec": "checkupdates | wc -l",       // # of updates
+        "exec-if": "exit 0",                  // always run; consider advanced run conditions
+        "on-click": "kitty -e 'yay'; pkill -SIGRTMIN+8 waybar", // update system
+        "signal": 8,
+        "max-length": 5,
+        "min-length": 3
+    },
+   /* "custom/nvtempd": {
+        "exec": "/home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/nvtempd",
+        "format": "{}",
+        "interval": 2,                     // every hour
+    },
+    "custom/inteltempd": {
+        "exec": "/home/zeptic/zeptittyconf/.dotfiles/.desktopScripts/inteltempd",
+        "format": "{}",
+        "interval": 3,                     // every hour
+    },*/
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "sudo poweroff"
+    },
+    "memory": {
+        "format": "󰍛  {used} <span color=\"darkgray\">| {total} GB</span>"
+    },
+    "hyprland/workspaces": {
+      "on-click": "activate",
+      "all-outputs": false,
+      "format": "{icon}",
+      "format-icons": {
+        "default": "",
+        "1": "",
+        "2": "",
+        "3": "󰈹",
+        "4": "[gamescope]",
+        "11": "󰎤",
+        "12": "󰎧",
+        "13": "",
+        "urgent": "󱓻"
+        },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "11": [],
+            "12": [],
+            "13": []
+        }
+    },   "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" 
+},
+},}

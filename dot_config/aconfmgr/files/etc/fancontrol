@@ -1,0 +1,13 @@
+# This file was created by Fancontrol-GUI
+INTERVAL=10
+DEVPATH=hwmon9=devices/platform/nct6775.2592 hwmon10=devices/pci0000:00/0000:00:03.1/0000:2d:00.0/0000:2e:00.0/0000:2f:00.0/hwmon/hwmon10 
+DEVNAME=hwmon9=nct6797 hwmon10=amdgpu 
+FCTEMPS=hwmon10/pwm1=hwmon10/temp1_input hwmon9/pwm1=hwmon10/temp1_input 
+FCFANS=hwmon10/pwm1=hwmon10/fan1_input hwmon9/pwm1=hwmon9/fan1_input 
+MINTEMP=hwmon10/pwm1=80 hwmon9/pwm1=30 
+MAXTEMP=hwmon10/pwm1=90 hwmon9/pwm1=90 
+MINSTART=hwmon10/pwm1=255 hwmon9/pwm1=255 
+MINSTOP=hwmon10/pwm1=0 hwmon9/pwm1=0 
+MINPWM=hwmon10/pwm1=0 hwmon9/pwm1=0 
+MAXPWM=hwmon10/pwm1=1 hwmon9/pwm1=1 
+AVERAGE=hwmon10/pwm1=1 hwmon9/pwm1=1 

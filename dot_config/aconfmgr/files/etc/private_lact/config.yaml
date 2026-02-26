@@ -1,0 +1,41 @@
+version: 5
+daemon:
+  log_level: info
+  admin_group: wheel
+  disable_clocks_cleanup: false
+apply_settings_timer: 5
+gpus:
+  1002:73BF-1DA2:E439-0000:2f:00.0:
+    fan_control_enabled: false
+    power_cap: 249.0
+    performance_level: auto
+    min_core_clock: 2300
+    max_core_clock: 2400
+    max_memory_clock: 954
+  1002:7550-148C:2435-0000:2f:00.0:
+    fan_control_enabled: false
+    fan_control_settings:
+      mode: static
+      static_speed: 0.89
+      temperature_key: edge
+      interval_ms: 500
+      curve:
+        40: 0.3
+        50: 0.35
+        60: 0.5
+        70: 0.75
+        80: 1.0
+    pmfw_options:
+      acoustic_limit: 3300
+      acoustic_target: 1325
+      minimum_pwm: 30
+      target_temperature: 90
+      zero_rpm: true
+    power_cap: 374.0
+    performance_level: auto
+    max_memory_clock: 1361
+    gpu_clock_offsets:
+      0: -400
+    voltage_offset: -60
+current_profile: null
+auto_switch_profiles: false
