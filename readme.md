@@ -9,8 +9,6 @@ It is split into two halves:
 1. **User Space (`~/.config/`):** Managed by [chezmoi](https://chezmoi.io/). This handles my Hyprland setup, Waybar, Alacritty, Neovim, etc.
 2. **Root Space (`/` and `/etc/`):** Managed by [aconfmgr](https://github.com/CyberShadow/aconfmgr). This tracks every single Arch package I have installed, all my systemd services, and my root config files. If a package isn't written in my `.sh` blueprint, `aconfmgr` uninstalls it.
 
-### How it works
-
 * `chezmoi` securely holds the actual configuration files for my daily-driver apps.
 * Inside `~/.config/aconfmgr/`, there are a bunch of shell scripts. These scripts dictate exactly what my system should look like at the root level.
 
