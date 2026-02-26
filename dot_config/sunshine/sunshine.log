@@ -1,0 +1,127 @@
+[2026-02-25 17:18:41.857]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
+[2026-02-25 17:18:41.857]: Info: Package Publisher: LizardByte
+[2026-02-25 17:18:41.857]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-02-25 17:18:41.857]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-02-25 17:18:41.857]: Info: config: 'adapter_name' = /dev/dri/renderD128
+[2026-02-25 17:18:41.857]: Info: config: 'output_name' = 1
+[2026-02-25 17:18:41.857]: Info: config: 'upnp' = enabled
+[2026-02-25 17:18:41.877]: Error: Couldn't load cuda: -1
+[2026-02-25 17:18:41.877]: Info: Found display [wayland-1]
+[2026-02-25 17:18:41.877]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-02-25 17:18:41.877]: Info: Found interface: zwlr_screencopy_manager_v1(41) version 3
+[2026-02-25 17:18:41.877]: Info: Found interface: zwp_linux_dmabuf_v1(62) version 5
+[2026-02-25 17:18:41.877]: Info: Found interface: wl_output(63) version 4
+[2026-02-25 17:18:41.877]: Info: Resolution: 3840x2160
+[2026-02-25 17:18:41.877]: Info: Name: DP-1
+[2026-02-25 17:18:41.877]: Info: Found monitor: Microstep MPG321UX OLED 0x01010101 (DP-1)
+[2026-02-25 17:18:41.877]: Info: Offset: 0x0
+[2026-02-25 17:18:41.877]: Info: Logical size: 3840x2160
+[2026-02-25 17:18:41.877]: Info: -------- Start of Wayland monitor list --------
+[2026-02-25 17:18:41.877]: Info: Monitor 0 is DP-1: Microstep MPG321UX OLED 0x01010101 (DP-1)
+[2026-02-25 17:18:41.877]: Info: --------- End of Wayland monitor list ---------
+[2026-02-25 17:18:41.899]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-02-25 17:18:41.900]: Info: Trying encoder [nvenc]
+[2026-02-25 17:18:41.900]: Info: Screencasting with Wayland's protocol
+[2026-02-25 17:18:41.900]: Info: Found display [wayland-1]
+[2026-02-25 17:18:41.900]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-02-25 17:18:41.900]: Info: Found interface: zwlr_screencopy_manager_v1(41) version 3
+[2026-02-25 17:18:41.900]: Info: Found interface: zwp_linux_dmabuf_v1(62) version 5
+[2026-02-25 17:18:41.900]: Info: Found interface: wl_output(63) version 4
+[2026-02-25 17:18:41.900]: Info: Resolution: 3840x2160
+[2026-02-25 17:18:41.900]: Info: Name: DP-1
+[2026-02-25 17:18:41.900]: Info: Found monitor: Microstep MPG321UX OLED 0x01010101 (DP-1)
+[2026-02-25 17:18:41.900]: Info: Offset: 0x0
+[2026-02-25 17:18:41.900]: Info: Logical size: 3840x2160
+[2026-02-25 17:18:41.900]: Info: Selected monitor [Microstep MPG321UX OLED 0x01010101 (DP-1)] for streaming
+[2026-02-25 17:18:41.900]: Info: Creating encoder [h264_nvenc]
+[2026-02-25 17:18:41.900]: Info: Color coding: SDR (Rec. 601)
+[2026-02-25 17:18:41.900]: Info: Color depth: 8-bit
+[2026-02-25 17:18:41.900]: Info: Color range: JPEG
+[2026-02-25 17:18:41.900]: Error: Couldn't load cuda: -1
+[2026-02-25 17:18:41.900]: Info: Creating encoder [h264_nvenc]
+[2026-02-25 17:18:41.900]: Info: Color coding: SDR (Rec. 601)
+[2026-02-25 17:18:41.900]: Info: Color depth: 8-bit
+[2026-02-25 17:18:41.900]: Info: Color range: JPEG
+[2026-02-25 17:18:41.900]: Error: Couldn't load cuda: -1
+[2026-02-25 17:18:41.900]: Info: Encoder [nvenc] failed
+[2026-02-25 17:18:41.900]: Info: Trying encoder [vaapi]
+[2026-02-25 17:18:41.900]: Info: Screencasting with Wayland's protocol
+[2026-02-25 17:18:41.900]: Info: Found display [wayland-1]
+[2026-02-25 17:18:41.900]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-02-25 17:18:41.900]: Info: Found interface: zwlr_screencopy_manager_v1(41) version 3
+[2026-02-25 17:18:41.900]: Info: Found interface: zwp_linux_dmabuf_v1(62) version 5
+[2026-02-25 17:18:41.900]: Info: Found interface: wl_output(63) version 4
+[2026-02-25 17:18:41.900]: Info: Resolution: 3840x2160
+[2026-02-25 17:18:41.900]: Info: Name: DP-1
+[2026-02-25 17:18:41.900]: Info: Found monitor: Microstep MPG321UX OLED 0x01010101 (DP-1)
+[2026-02-25 17:18:41.900]: Info: Offset: 0x0
+[2026-02-25 17:18:41.900]: Info: Logical size: 3840x2160
+[2026-02-25 17:18:41.900]: Info: Selected monitor [Microstep MPG321UX OLED 0x01010101 (DP-1)] for streaming
+[2026-02-25 17:18:41.900]: Info: Creating encoder [h264_vaapi]
+[2026-02-25 17:18:41.900]: Info: Color coding: SDR (Rec. 601)
+[2026-02-25 17:18:41.900]: Info: Color depth: 8-bit
+[2026-02-25 17:18:41.900]: Info: Color range: JPEG
+[2026-02-25 17:18:41.959]: Info: vaapi vendor: Mesa Gallium driver 26.1.0-devel for AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 6.19.3-2-cachyos)
+[2026-02-25 17:18:41.960]: Info: Streaming bitrate is 1000000
+[2026-02-25 17:18:41.960]: Info: Using normal encoding mode
+[2026-02-25 17:18:41.960]: Info: Using default rate control
+[2026-02-25 17:18:41.980]: Info: Creating encoder [hevc_vaapi]
+[2026-02-25 17:18:41.980]: Info: Color coding: SDR (Rec. 601)
+[2026-02-25 17:18:41.980]: Info: Color depth: 8-bit
+[2026-02-25 17:18:41.980]: Info: Color range: JPEG
+[2026-02-25 17:18:41.992]: Info: vaapi vendor: Mesa Gallium driver 26.1.0-devel for AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 6.19.3-2-cachyos)
+[2026-02-25 17:18:41.993]: Info: Streaming bitrate is 1000000
+[2026-02-25 17:18:41.993]: Info: Using normal encoding mode
+[2026-02-25 17:18:41.993]: Info: Using default rate control
+[2026-02-25 17:18:42.004]: Info: Creating encoder [av1_vaapi]
+[2026-02-25 17:18:42.004]: Info: Color coding: SDR (Rec. 601)
+[2026-02-25 17:18:42.004]: Info: Color depth: 8-bit
+[2026-02-25 17:18:42.004]: Info: Color range: JPEG
+[2026-02-25 17:18:42.019]: Info: vaapi vendor: Mesa Gallium driver 26.1.0-devel for AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 6.19.3-2-cachyos)
+[2026-02-25 17:18:42.020]: Info: Streaming bitrate is 1000000
+[2026-02-25 17:18:42.020]: Info: Using normal encoding mode
+[2026-02-25 17:18:42.020]: Info: Using VBR with single frame VBV size
+[2026-02-25 17:18:42.020]: Warning: [av1_vaapi @ 0x564af7e5abc0] Multiple slices were requested but this codec does not support controlling slices.
+[2026-02-25 17:18:42.028]: Info: Screencasting with Wayland's protocol
+[2026-02-25 17:18:42.028]: Info: Found display [wayland-1]
+[2026-02-25 17:18:42.030]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-02-25 17:18:42.030]: Info: Found interface: zwlr_screencopy_manager_v1(41) version 3
+[2026-02-25 17:18:42.030]: Info: Found interface: zwp_linux_dmabuf_v1(62) version 5
+[2026-02-25 17:18:42.031]: Info: Found interface: wl_output(63) version 4
+[2026-02-25 17:18:42.031]: Info: Resolution: 3840x2160
+[2026-02-25 17:18:42.031]: Info: Name: DP-1
+[2026-02-25 17:18:42.031]: Info: Found monitor: Microstep MPG321UX OLED 0x01010101 (DP-1)
+[2026-02-25 17:18:42.031]: Info: Offset: 0x0
+[2026-02-25 17:18:42.031]: Info: Logical size: 3840x2160
+[2026-02-25 17:18:42.031]: Info: Selected monitor [Microstep MPG321UX OLED 0x01010101 (DP-1)] for streaming
+[2026-02-25 17:18:42.031]: Info: Creating encoder [hevc_vaapi]
+[2026-02-25 17:18:42.031]: Info: Color coding: SDR (Rec. 709)
+[2026-02-25 17:18:42.031]: Info: Color depth: 10-bit
+[2026-02-25 17:18:42.031]: Info: Color range: JPEG
+[2026-02-25 17:18:42.042]: Info: vaapi vendor: Mesa Gallium driver 26.1.0-devel for AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 6.19.3-2-cachyos)
+[2026-02-25 17:18:42.044]: Info: Streaming bitrate is 1000000
+[2026-02-25 17:18:42.044]: Info: Using normal encoding mode
+[2026-02-25 17:18:42.044]: Info: Using default rate control
+[2026-02-25 17:18:42.055]: Info: Creating encoder [av1_vaapi]
+[2026-02-25 17:18:42.055]: Info: Color coding: SDR (Rec. 709)
+[2026-02-25 17:18:42.056]: Info: Color depth: 10-bit
+[2026-02-25 17:18:42.056]: Info: Color range: JPEG
+[2026-02-25 17:18:42.065]: Info: vaapi vendor: Mesa Gallium driver 26.1.0-devel for AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 6.19.3-2-cachyos)
+[2026-02-25 17:18:42.066]: Info: Streaming bitrate is 1000000
+[2026-02-25 17:18:42.066]: Info: Using normal encoding mode
+[2026-02-25 17:18:42.066]: Info: Using VBR with single frame VBV size
+[2026-02-25 17:18:42.066]: Warning: [av1_vaapi @ 0x564af7e5abc0] Multiple slices were requested but this codec does not support controlling slices.
+[2026-02-25 17:18:42.074]: Info: 
+[2026-02-25 17:18:42.074]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-02-25 17:18:42.074]: Info: 
+[2026-02-25 17:18:42.074]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2026-02-25 17:18:42.074]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2026-02-25 17:18:42.074]: Info: Found AV1 encoder: av1_vaapi [vaapi]
+[2026-02-25 17:18:42.076]: Info: Starting system tray
+[2026-02-25 17:18:42.076]: Info: Adding avahi service ZeTieX
+[2026-02-25 17:18:42.077]: Info: Configuration UI available at [https://localhost:47990]
+[2026-02-25 17:18:42.162]: Info: System tray created
+[2026-02-25 17:18:42.162]: Info: Starting main loop
+[2026-02-25 17:18:42.980]: Info: Avahi service ZeTieX successfully established.
+[2026-02-25 17:18:44.077]: Warning: Couldn't discover any IPv4 UPNP devices
+[2026-02-25 17:20:48.579]: Info: Completed UPnP port mappings to 192.168.0.167 via http://192.168.0.1:1900/lkwxm/rootDesc.xml

@@ -1,0 +1,123 @@
+// Everblush Colours
+* {
+    background-color:               transparent;
+    background:                     #141b1e;
+    lighter-background:             #232a2d;
+    background-transparent:         #141b1ee0;
+    text-color:                     #dadada;
+    text-color-selected:            #ffffff;
+    primary:                        #eb6f92;
+    important:                      #f6c177;
+}
+
+configuration {
+    font:                           "JetBrains Mono 17";
+    show-icons:                     true;
+}
+
+window {
+    fullscreen:                     true;
+    height:                         100%;
+    width:                          100%;
+    transparency:                   "real";
+    background-color:               @background-transparent;
+    border:                         0px 0px 0px 0px;
+    border-color:                   @primary;
+}
+
+mainbox {
+    children:                       [prompt, inputbar-box, listview];
+    padding:                        0px 0px;
+}
+
+prompt {
+    width:                          100%;
+    margin:                         10px 0px 0px 30px;
+    text-color:                     @primary;
+    font:                           "JetBrains Bold 1";
+}
+
+listview {
+    layout:                         vertical;
+    padding:                        60px;
+    dynamic:                        true;
+    columns:                        7;
+    spacing:                        20px;
+}
+
+inputbar-box {
+    children:                       [dummy, inputbar, dummy];
+    orientation:                    horizontal;
+    expand:                         false;
+}
+
+inputbar {
+    children:                       [textbox-prompt, entry];
+    margin:                         0px;
+    background-color:               @primary;
+    border:                         4px;
+    border-color:                   @lighter-background;
+    border-radius:                  2px;
+}
+
+textbox-prompt {
+    text-color:                     @lighter-background;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    expand:                         false;
+}
+
+entry {
+    expand:                         false;
+    padding:                        8px;
+    margin:                         -6px;
+    horizontal-align:               0;
+    width:                          300;
+    background-color:               @lighter-background;
+    border:                         6px;
+    border-color:                   @lighter-background;
+    border-radius:                  0px;
+    cursor:                         text;
+    text-color:                     @text-color;
+}
+
+element {
+    children:                       [dummy, element-box, dummy];
+    padding:                        5px;
+    orientation:                    vertical;
+    border:                         0px 4px solid 0px 4px;
+    border-color:                   transparent;
+    border-radius:                  0;
+    background-color:               transparent;
+}
+
+element selected {
+    border-color:                   @lighter-background;
+    background-color:               @lighter-background;
+}
+
+element-box {
+    children:                       [element-icon, element-text];
+    orientation:                    vertical;
+    expand:                         false;
+    cursor:                         pointer;
+}
+
+element-icon {
+    padding:                        10px;
+    cursor:                         inherit;
+    size:                           33%;
+    margin:                         10px;
+}
+
+element-text {
+    horizontal-align:               0.5;
+    cursor:                         inherit;
+    text-color:                     @text-color;
+}
+
+element-text selected {
+    text-color:                     @text-color-selected;
+}
+
+

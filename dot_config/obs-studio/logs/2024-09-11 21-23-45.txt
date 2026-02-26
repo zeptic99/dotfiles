@@ -1,0 +1,54 @@
+21:23:45.237: [Safe Mode] Unclean shutdown detected!
+21:23:46.641: [Safe Mode] User elected to launch normally.
+21:23:46.641: Platform: Wayland
+21:23:46.641: CPU Name: AMD Ryzen 7 5800X 8-Core Processor
+21:23:46.641: CPU Speed: 2239.172MHz
+21:23:46.642: Physical Cores: 8, Logical Cores: 16
+21:23:46.642: Physical Memory: 64246MB Total, 56493MB Free
+21:23:46.642: Kernel Version: Linux 6.10.9-273linux-tkg-custom-zeptic
+21:23:46.642: Distribution: "Arch Linux" Unknown
+21:23:46.642: Desktop Environment: Hyprland ()
+21:23:46.642: Session Type: wayland
+21:23:46.643: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+21:23:46.643: Portable mode: false
+21:23:46.657: OBS 30.2.1-1 (linux)
+21:23:46.657: ---------------------------------
+21:23:46.657: ---------------------------------
+21:23:46.657: audio settings reset:
+21:23:46.657: 	samples per sec: 48000
+21:23:46.657: 	speakers:        2
+21:23:46.657: 	max buffering:   960 milliseconds
+21:23:46.657: 	buffering type:  dynamically increasing
+21:23:46.661: ---------------------------------
+21:23:46.661: Initializing OpenGL...
+21:23:46.661: Using EGL/Wayland
+21:23:46.661: Initialized EGL 1.5
+21:23:46.761: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+21:23:46.761: OpenGL loaded successfully, version 3.3.0 NVIDIA 560.35.03, shading language 3.30 NVIDIA via Cg compiler
+21:23:46.860: ---------------------------------
+21:23:46.860: video settings reset:
+21:23:46.860: 	base resolution:   1920x1080
+21:23:46.860: 	output resolution: 1280x720
+21:23:46.860: 	downscale filter:  Bicubic
+21:23:46.860: 	fps:               30/1
+21:23:46.860: 	format:            NV12
+21:23:46.860: 	YUV mode:          Rec. 709/Partial
+21:23:46.860: NV12 texture support enabled
+21:23:46.860: P010 texture support not available
+21:23:46.861: Audio monitoring device:
+21:23:46.861: 	name: Default
+21:23:46.861: 	id: default
+21:23:46.861: ---------------------------------
+21:23:46.868: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:23:46.874: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:23:46.880: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:23:46.880: Failed to initialize module 'decklink.so'
+21:23:46.996: [pipewire] Available capture sources:
+21:23:46.996: [pipewire]     - Monitor source
+21:23:46.996: [pipewire]     - Window source
+21:23:47.010: v4l2loopback not installed, virtual camera not registered
+21:23:47.058: NVENC supported
+21:23:47.062: VAAPI: API version 1.22
+21:23:47.062: FFmpeg VAAPI H264 encoding supported
+21:23:47.064: FFmpeg VAAPI AV1 encoding supported
+21:23:47.066: FFmpeg VAAPI HEVC encoding supported

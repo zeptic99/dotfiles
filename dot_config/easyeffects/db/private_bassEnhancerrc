@@ -1,0 +1,8 @@
+[soe][BassEnhancer#0]
+amount=7.999999999999988
+bypass=true
+harmonics=4.000000000000016
+inputGain=-8
+
+[soe][BassEnhancer#1]
+bypass=true

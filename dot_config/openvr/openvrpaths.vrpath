@@ -1,0 +1,17 @@
+{
+	"config" : 
+	[
+		"/home/zeptic/.local/share/Steam/config"
+	],
+	"external_drivers" : null,
+	"jsonid" : "vrpathreg",
+	"log" : 
+	[
+		"/home/zeptic/.local/share/Steam/logs"
+	],
+	"runtime" : 
+	[
+		"/opt/xrizer"
+	],
+	"version" : 1
+}

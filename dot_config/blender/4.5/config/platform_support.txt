@@ -1,0 +1,6 @@
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.16.4-2-cachyos)/4.6 (Core Profile) Mesa 25.2.1-cachyos1.6}=SUPPORTED
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.16.4-4-cachyos)/4.6 (Core Profile) Mesa 25.2.2-cachyos1.2}=SUPPORTED
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.16.7-2-cachyos)/4.6 (Core Profile) Mesa 25.2.2-cachyos1.4}=SUPPORTED
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.16.8-2-cachyos)/4.6 (Core Profile) Mesa 25.2.3-cachyos1.3}=SUPPORTED
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.17.0-4-cachyos)/4.6 (Core Profile) Mesa 25.2.4-cachyos1.2}=SUPPORTED
+{AMD/AMD Radeon RX 9070 XT (radeonsi, gfx1201, LLVM 20.1.8, DRM 3.64, 6.17.3-2-cachyos)/4.6 (Core Profile) Mesa 25.2.5-cachyos1.2}=SUPPORTED

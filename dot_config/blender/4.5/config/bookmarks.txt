@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/zeptic/Documents/
+/tmp/

@@ -1,0 +1,37 @@
+{
+  "application": [
+    "steam",
+    "steam://launch/546560/VR"
+  ],
+  "bitrate": 50000000,
+  "debug-gui": false,
+  "encoders": [
+    {
+      "codec": "h264",
+      "encoder": "vaapi",
+      "height": 0.3,
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "width": 0.5
+    },
+    {
+      "codec": "h264",
+      "encoder": "vaapi",
+      "height": 0.7,
+      "offset_x": 0.0,
+      "offset_y": 0.3,
+      "width": 0.5
+    },
+    {
+      "codec": "h264",
+      "encoder": "vaapi",
+      "height": 1.0,
+      "offset_x": 0.5,
+      "offset_y": 0.0,
+      "width": 0.5
+    }
+  ],
+  "openvr-compat-path": "/opt/xrizer",
+  "scale": 0.5,
+  "use-steamvr-lh": false
+}

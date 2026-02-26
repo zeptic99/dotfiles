@@ -1,0 +1,97 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250325_041111
+====================================================================================================
+
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:7550 Subsystem: 148C:2435
+1006  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1462:7C35
+1006  |Info:    Registering I2C interface: /dev/i2c-8 Device 1002:7550 Subsystem: 148C:2435
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:7550 Subsystem: 148C:2435
+1006  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:7550 Subsystem: 148C:2435
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1462:7C35
+1007  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1462:7C35
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-7 Device 1002:7550 Subsystem: 148C:2435
+1007  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:7550 Subsystem: 148C:2435
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1347  |Info:    [ENE DRAM] Registering RGB controller
+1526  |Info:    [ENE DRAM] Registering RGB controller
+1692  |Info:    [ENE DRAM] Registering RGB controller
+1858  |Info:    [ENE DRAM] Registering RGB controller
+2745  |Info:    ------------------------------------------------------
+2745  |Info:    |               Detecting I2C PCI devices            |
+2745  |Info:    ------------------------------------------------------
+2745  |Info:    ------------------------------------------------------
+2745  |Info:    |               Detecting HID devices                |
+2745  |Info:    ------------------------------------------------------
+2813  |Info:    [MSI MEG X570 ACE (MS-7C35)] Registering RGB controller
+2813  |Info:    ------------------------------------------------------
+2813  |Info:    |            Detecting libusb HID devices            |
+2813  |Info:    ------------------------------------------------------
+2841  |Info:    ------------------------------------------------------
+2841  |Info:    |              Detecting other devices               |
+2841  |Info:    ------------------------------------------------------
+2846  |Info:    ------------------------------------------------------
+2846  |Info:    |                Detection completed                 |
+2846  |Info:    ------------------------------------------------------
+236580|Info:    ------------------------------------------------------
+236580|Info:    |               Start device detection               |
+236580|Info:    ------------------------------------------------------
+236580|Info:    Initializing HID interfaces: Success
+236584|Info:    ------------------------------------------------------
+236584|Info:    |             Detecting I2C interfaces               |
+236584|Info:    ------------------------------------------------------
+236584|Info:    Registering I2C interface: /dev/i2c-3 Device 1002:7550 Subsystem: 148C:2435
+236584|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+236584|Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+236584|Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1462:7C35
+236584|Info:    Registering I2C interface: /dev/i2c-8 Device 1002:7550 Subsystem: 148C:2435
+236584|Info:    Registering I2C interface: /dev/i2c-6 Device 1002:7550 Subsystem: 148C:2435
+236584|Info:    Registering I2C interface: /dev/i2c-4 Device 1002:7550 Subsystem: 148C:2435
+236584|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+236584|Info:    Registering I2C interface: /dev/i2c-11 Device 0000:0000 Subsystem: 0000:0000
+236584|Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1462:7C35
+236584|Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1462:7C35
+236585|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+236585|Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+236585|Info:    Registering I2C interface: /dev/i2c-7 Device 1002:7550 Subsystem: 148C:2435
+236585|Info:    Registering I2C interface: /dev/i2c-5 Device 1002:7550 Subsystem: 148C:2435
+236585|Info:    ------------------------------------------------------
+236585|Info:    |               Detecting I2C devices                |
+236585|Info:    ------------------------------------------------------
+236862|Info:    [ENE DRAM] Registering RGB controller
+237040|Info:    [ENE DRAM] Registering RGB controller
+237206|Info:    [ENE DRAM] Registering RGB controller
+237372|Info:    [ENE DRAM] Registering RGB controller
+238261|Info:    ------------------------------------------------------
+238261|Info:    |               Detecting I2C PCI devices            |
+238261|Info:    ------------------------------------------------------
+238261|Info:    ------------------------------------------------------
+238261|Info:    |               Detecting HID devices                |
+238261|Info:    ------------------------------------------------------
+238332|Info:    [MSI MEG X570 ACE (MS-7C35)] Registering RGB controller
+238332|Info:    ------------------------------------------------------
+238332|Info:    |            Detecting libusb HID devices            |
+238332|Info:    ------------------------------------------------------
+238348|Info:    ------------------------------------------------------
+238348|Info:    |              Detecting other devices               |
+238348|Info:    ------------------------------------------------------
+238349|Info:    ------------------------------------------------------
+238349|Info:    |                Detection completed                 |
+238349|Info:    ------------------------------------------------------
+1365583|Info:    Found file: bob.orp attempting to validate header
+1365583|Info:    Valid v4 profile found for bob
